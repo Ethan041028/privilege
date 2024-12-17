@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: 'Copperplate';
+    src: url('font/Copperplate.otf') format('opentype');
+}
+
+.cooperplate {
+    font-family: 'Copperplate', sans-serif !important;
+}
+
+
+
+/*------------------------------------------------------Navigation----------------------------------------------------*/
+
+.navbar-custom {
+    background-color: #1E1E27; 
+    font-family: "Copperplate", sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #CA9B50;
+}
+
+.navbar-custom .nav-link.active {
+    color: #CA9B50; 
+}
+
+.nav-link i{
+    color: #CA9B50;
+}
+
+
+/*------------------------------------------------------Accueil----------------------------------------------------*/
+
+.hero-section {
+    background-color: #E9EAEA;
+}
+
+.text-content h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #1E1E27; 
+    font-family: "Libre Bodoni" , serif;
+    margin: 0;
+}
+
+.text-content h1 span {
+   font-size: 3.5rem;
+   display: block;
+   margin-top: -10px;
+}
+
+.text-content p {
+    font-size: 1.9rem;
+    color: #CA9B50;
+    margin-top: 10px; 
+
+}
+.text-content button {
+    margin-top: 20px;
+    background-color: #2c2c2c; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.text-content button:hover {
+    background-color: #444; 
+}
+
+
+
+
+
+
+
+
+
+
+.concept-section {
+    background-color: #1E1E27;
+}
+.title h2 {
+    font-size: 2.5rem;
+    font-family: "Libre bodoni", serif;
+    color: #fff;
+}
+
+.title h2 span {
+    margin-top: -20px;
+    display: block;
+}
+.concept-title h3 {
+    font-family: "Libre bodoni", serif;
+    color: #CA9B50;
+}
+.concept-content p, .bottom-text {
+    color: #fff;
+    text-align: justify;
+
+}
+
+.btn-custom {
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.btn-custom:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+
+.image-full {
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+.image-full-width img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+
+
+.service-section h2 {
+    color: #1E1E27;
+}
+
+.service-section h5{
+
+    color: #1E1E27;
+}
+
+.card-body{
+    background-color: #E9EAEA;
+}
+
+
+
+.conciergerie-section {
+    background-color: #1E1E27;
+    color: #fff;
+}
+
+
+
+.conciergerie-section i {
+    color: #CA9B50;
+}
+
+
+
+.conciergerie-section h3 {
+    font-family: "Libre bodoni", serif;
+}
+
+
+.bloc-conciergerie {
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.bloc-conciergerie.n1 {
+    background-image: url("image/looker.png");
+}
+
+.bloc-conciergerie.n2{
+    background-image: url("image/physique.png");
+}
+
+.bloc-conciergerie.n3{
+    background-image: url("image/digitale.png");
+}
+
+
+.partenaire-section h2 {
+    color: #1E1E27;
+}
+
+.bloc-membre{
+    background-image: url("image/sonnette.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.membre-section h5{
+    color: white;
+    font-family: "Libre bodoni", serif;
+    text-transform: uppercase;
+
+}
+
+.membre-section h6{
+    color: white;
+
+}
+
+
+
