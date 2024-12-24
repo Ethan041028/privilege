@@ -61,7 +61,13 @@
 
 
   .carousel-item {
-    height: 600px; /* Assurez-vous que le conteneur a une hauteur définie */
+    height: 600px; 
+}
+
+@media (max-width: 767.98px) {
+    .carousel-item {
+        height: 300px;
+    }
 }
 
 .carousel-image {
@@ -74,13 +80,13 @@
 
   .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: black; /* Couleur noire */
-    width: 3rem; /* Largeur plus grande */
-    height: 3rem; /* Hauteur plus grande */
+    background-color: black; 
+    width: 3rem; 
+    height: 3rem; 
 }
 
 .carousel-control-prev-icon::before,
 .carousel-control-next-icon::before {
-    font-size: 2rem; /* Taille de l'icône plus grande */
-    color: black; /* Couleur noire */
+    font-size: 2rem; 
+    color: black; 
 }
