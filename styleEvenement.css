@@ -1,0 +1,241 @@
+
+@font-face {
+    font-family: 'Copperplate';
+    src: url('font/Copperplate.otf') format('opentype');
+}
+
+.cooperplate {
+    font-family: 'Copperplate', sans-serif !important;
+}
+
+
+
+
+/*------------------------------------------------------Navigation----------------------------------------------------*/
+
+.navbar-custom {
+    background-color: #1E1E27; 
+    font-family: "Copperplate", sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #CA9B50;
+}
+
+.navbar-custom .nav-link.active {
+    color: #CA9B50; 
+}
+
+.nav-link i{
+    color: #CA9B50;
+}
+
+
+
+
+/*------------------------------------------------------SERVICES----------------------------------------------------*/
+
+
+.new-event h2 {
+    font-size: 2rem;
+    font-family: "Libre bodoni", serif;
+    color: #000000;
+}
+
+.new-event h2 span {
+    font-size: 2.5rem;
+    margin-top: -20px;
+    display: block;
+}
+
+.evenement-section  {
+    background-image: url("image/evenement.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 50vh;
+
+}
+
+
+
+.evenement-section h2 {
+    font-family: "Libre Bodonie";
+    font-size: 2.5rem;
+}
+
+.evenement-section h2 span {
+    display: block;
+    margin-top: -30px;
+    font-size: 3.5rem;
+}
+
+.line{
+    height: 4px; 
+    width: 80%; 
+    background-color: #CA9B50; 
+    border: none; 
+    opacity: 1; 
+}
+
+
+.new-event h5{
+    font-family: "Libre Bodonie";
+
+}
+
+
+
+.row-event {
+    min-height: 1100px;
+}
+
+
+
+.event-card {
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+}
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+.event-overlay {
+    position: absolute;
+    background: #1e1e27b9;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.event-overlay h5 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.old-event {
+    background-color: #1E1E27;
+    color: #fff;
+}
+
+.old-event h2 {
+    font-family: "Libre Bodonie";
+    font-size: 2rem;
+    color: #fff;
+}
+
+.old-event h2 span {
+    display: block;
+    margin-top: -25px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+.row-oldevent {
+    height: 100%;
+}
+
+.col-oldevent {
+    height: 100%;
+}
+
+
+
+
+.card-img-top{
+    max-height: 300px;
+    border-radius: 0 !important;
+}
+
+.card1 {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #E9EAEA !important;
+    color: #1E1E27 !important;
+}
+
+.card2 {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #ca9b50bc !important;
+    color: #fff !important;
+}
+
+.card h5 {
+    font-family:"Libre Bodonie" !important ;
+}
+
+
+
+
+
+.form-section h3{
+    font-family: "Libre Bodonie";
+}
+
+.contact-form-container {
+    background-color: #1E1E27;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 20px;
+  }
+
+  @media (max-width: 767.98px) {
+    .contact-form-container {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
+
+
+  .contact-form-container input,
+  .contact-form-container textarea {
+    background-color: #1E1E27;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  .contact-form-container input::placeholder,
+  .contact-form-container textarea::placeholder {
+    color: #ccc;
+  }
+  .btn-custom {
+    background-color: #d6a34b !important;
+    color: white !important;
+    border: none;
+  }
+  .btn-custom:hover {
+    background-color: #c08e3d;
+  }
+  .details-container {
+    color: black;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .detail-col{
+    background-color: #F8F8F8;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  @media (max-width: 767.98px) {
+    .detail-col {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
